@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  /* gap: 12px; */
   justify-content: center;
   align-items: center;
   max-width: 1400px;
@@ -41,10 +42,12 @@ body {
 }
 
 .gallery img {
+  top: 0px;
   width: 100%;
   max-width: 350px;
   height: 300px;
   object-fit: cover;
+  margin: 4%;
 }
 
 .inline-img {
@@ -52,4 +55,8 @@ body {
   margin: 0 0.125em;
   padding: 0;
   vertical-align: baseline;
+}
+.nav {
+  position: fixed;
+  z-index: 1;
 }
