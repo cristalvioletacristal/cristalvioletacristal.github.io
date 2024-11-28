@@ -15,7 +15,7 @@ body {
 #myVideo {
   position: fixed;
   right: 0;
-  bottom: 0;
+  top: 0;
   min-width: 100%;
   min-height: 100%;
   z-index:-100;
@@ -24,9 +24,9 @@ body {
   text-align: left;
   /* text-transform: lowercase; */
   padding: 32px;
-  background-color: #e3a7ff;
-  color: #fff;
-  border-bottom: 4px solid #fdb347;
+  /* background-color: #e3a7ff; */
+  /* color: #fff; */
+  /* border-bottom: 4px solid #fdb347; */
 }
 
 .gallery {
