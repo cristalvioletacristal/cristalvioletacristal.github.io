@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Times New Arial';
+    src: url('TimesNewArial.eot');
+    src: url('TimesNewArial.eot?#iefix') format('embedded-opentype'),
+        url('TimesNewArial.woff2') format('woff2'),
+        url('TimesNewArial.woff') format('woff'),
+        url('TimesNewArial.ttf') format('truetype'),
+        url('TimesNewArial.svg#TimesNewArial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
