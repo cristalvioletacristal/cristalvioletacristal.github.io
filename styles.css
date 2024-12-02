@@ -60,3 +60,21 @@ body {
   position: fixed;
   z-index: 1;
 }
+.myButton{
+    background:url(./images/gui/rag-button-violeta-00.bmp) no-repeat;
+
+    cursor:pointer;
+    border:none;
+    width:140px;
+    height:20px;
+
+  }
+
+.myButton:active {
+    background:url(./images/but2.png) no-repeat;
+    background-color:red;
+  }
+
+.mySidebar{
+position:fixed;
+}
