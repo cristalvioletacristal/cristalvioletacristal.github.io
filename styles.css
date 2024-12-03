@@ -8,7 +8,7 @@
 }
 
 body {
-  cursor:url("./images/cursor/0.png"),default;
+	cursor:url("./images/cursor/0.png"),default;
   font-family: TimesNewArial;
   background: #AEAEAE;
 }
@@ -48,6 +48,7 @@ body {
   height: 300px;
   object-fit: cover;
   margin: 4%;
+cursor: url(http://www.rw-designer.com/cursor-extern.php?id=137137), pointer;
 }
 
 .inline-img {
@@ -55,6 +56,8 @@ body {
   margin: 0 0.125em;
   padding: 0;
   vertical-align: baseline;
+
+
 }
 .nav {
   position: fixed;
