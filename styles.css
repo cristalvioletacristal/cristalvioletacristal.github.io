@@ -1,3 +1,6 @@
+body{
+	cursor: url(https://cur.cursors-4u.net/food/foo-6/foo507.ani), url(https://cur.cursors-4u.net/food/foo-6/foo507.png), auto !important;
+	}
 * {
   box-sizing: border-box;
 }
@@ -8,7 +11,7 @@
 }
 
 body {
-  cursor:url("./images/cursor/0.png"),default;
+  /* cursor:url("./images/cursor/0.png"),default; */
   font-family: TimesNewArial;
   background: #AEAEAE;
 }
@@ -60,3 +63,15 @@ body {
   position: fixed;
   z-index: 1;
 }
+.p1 {
+	font-family: Consolas, Times, serif;
+	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
+
+}
+
+
+/* .px {
+	font-family: "Pixel Sans";
+	src: url('./fonts/Basiic-Sans-12pt.ttf');
+//////////como aplicar o src?
+} */
