@@ -11,7 +11,20 @@ body {
 	cursor:url("./images/cursor/0.png"),default;
   font-family: TimesNewArial;
   background: #AEAEAE;
-}
+	cursor: url(frame1.gif), auto;
+	animation: cursor 1s linear infinite;
+	}
+	@keyframes cursor{
+	0% {
+			cursor: url(./images/cursor/0.png), auto;
+	}
+	50% {
+			cursor: url(./images/cursor/ro-link-select-frame-0.png), auto;
+	}
+	100% {
+			cursor: url(frame3.gif), auto;
+	}
+	}
 #myVideo {
   position: fixed;
   right: 0;
@@ -27,6 +40,11 @@ body {
   /* background-color: #e3a7ff; */
   /* color: #fff; */
   /* border-bottom: 4px solid #fdb347; */
+}
+
+.presentation {
+	font-family: "TimesNewArial";
+	font-weight: normal;
 }
 
 .gallery {
@@ -48,7 +66,8 @@ body {
   height: 300px;
   object-fit: cover;
   margin: 4%;
-cursor: url(http://www.rw-designer.com/cursor-extern.php?id=137137), pointer;
+	cursor: url(./images/cursor/ro-link-select-frame-0.gif), pointer;
+	/* cursor: url(http://www.rw-designer.com/cursor-extern.php?id=137137), pointer; */
 }
 
 .inline-img {
