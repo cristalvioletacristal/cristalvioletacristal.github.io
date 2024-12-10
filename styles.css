@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 body{
 	cursor: url(https://cur.cursors-4u.net/food/foo-6/foo507.ani), url(https://cur.cursors-4u.net/food/foo-6/foo507.png), auto !important;
 	}
+=======
+/* Reset and Fonts */
+>>>>>>> main
 * {
   box-sizing: border-box;
 }
@@ -11,46 +15,63 @@ body{
 }
 
 body {
+<<<<<<< HEAD
   /* cursor:url("./images/cursor/0.png"),default; */
   font-family: TimesNewArial;
+=======
+  cursor: url("./images/cursor/0.png"), default;
+  font-family: TimesNewArial, sans-serif;
+>>>>>>> main
   background: #AEAEAE;
-}
-#myVideo {
-  position: fixed;
-  right: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index:-100;
-}
-.header {
-  text-align: left;
-  /* text-transform: lowercase; */
-  padding: 32px;
-  /* background-color: #e3a7ff; */
-  /* color: #fff; */
-  /* border-bottom: 4px solid #fdb347; */
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
+/* Video Background */
+#videoDemaisParaContar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -100;
+	opacity: 1; /* Adjust background video brightness */
+}
+
+/* Header */
+.header {
+  text-align: left;
+  padding: 32px;
+  font-size: 1.5em;
+  z-index: 1;
+  position: relative;
+}
+
+/* Gallery */
 .gallery {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  /* gap: 12px; */
   justify-content: center;
   align-items: center;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 20px 10px;
+  gap: 16px; /* Add consistent spacing between images */
 }
 
 .gallery img {
-  top: 0px;
   width: 100%;
-  max-width: 350px;
-  height: 300px;
+  max-width: 300px;
+  height: 250px;
   object-fit: cover;
   margin: 4%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.gallery img:hover {
+	filter: hue-rotate(90deg) contrast(200%);
+/* filter: grayscale(30%); */
 }
 
 .inline-img {
@@ -59,6 +80,7 @@ body {
   padding: 0;
   vertical-align: baseline;
 }
+<<<<<<< HEAD
 .nav {
   position: fixed;
   z-index: 1;
@@ -75,3 +97,5 @@ body {
 	src: url('./fonts/Basiic-Sans-12pt.ttf');
 //////////como aplicar o src?
 } */
+=======
+>>>>>>> main
