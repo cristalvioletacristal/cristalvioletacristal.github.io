@@ -49,6 +49,12 @@ body {
   position: relative;
 }
 
+.subtitle {
+  display: block;
+	margin-top: 18px;
+	margin-bottom: -6px;
+}
+
 /* Gallery */
 .gallery {
   display: flex;
