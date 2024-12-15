@@ -55,6 +55,9 @@ body {
 	margin-bottom: -6px;
 }
 
+.title {
+}
+
 /* Gallery */
 .gallery {
   display: flex;
@@ -93,9 +96,10 @@ body {
   z-index: 1;
 }
 .p1 {
+	text-align:justify;
 	padding: 12px;
 	font-family: Consolas, Times, serif;
-		background-color: rgba(255, 255, 255, 0.85); /* White with 50% opacity */
+	background-color: rgba(255, 255, 255, 0.85); /* White with 50% opacity */
 	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
 
 
