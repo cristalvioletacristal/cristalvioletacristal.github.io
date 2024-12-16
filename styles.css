@@ -4,7 +4,7 @@ body{
 	}
 =======
 /* Reset and Fonts */
->>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef
+/* >>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef */
 * {
   box-sizing: border-box;
 }
@@ -17,7 +17,7 @@ body{
 body {
   cursor: url("./images/cursor/0.png"), default;
   font-family: TimesNewArial, sans-serif;
->>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef
+/* >>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef */
   background: #AEAEAE;
   margin: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -86,7 +86,7 @@ body {
   padding: 0;
   vertical-align: baseline;
 }
->>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef
+/* >>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef */
 
 .p1 {
 	text-align:justify;
