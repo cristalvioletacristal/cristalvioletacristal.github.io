@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+body{
+	cursor: url(https://cur.cursors-4u.net/food/foo-6/foo507.ani), url(https://cur.cursors-4u.net/food/foo-6/foo507.png), auto !important;
+	}
+=======
 /* Reset and Fonts */
+>>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef
 * {
   box-sizing: border-box;
 }
@@ -11,6 +17,7 @@
 body {
   cursor: url("./images/cursor/0.png"), default;
   font-family: TimesNewArial, sans-serif;
+>>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef
   background: #AEAEAE;
   margin: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -25,16 +32,26 @@ body {
   height: 100%;
   object-fit: cover;
   z-index: -100;
-	opacity: 1; /* Adjust background video brightness */
+	opacity: .8; /* Adjust background video brightness */
 }
 
 /* Header */
 .header {
   text-align: left;
   padding: 32px;
+	padding-left: 48px;
   font-size: 1.5em;
   z-index: 1;
   position: relative;
+}
+
+.subtitle {
+  display: block;
+	margin-top: 18px;
+	margin-bottom: -6px;
+}
+
+.title {
 }
 
 /* Gallery */
@@ -68,4 +85,15 @@ body {
   margin: 0 0.125em;
   padding: 0;
   vertical-align: baseline;
+}
+>>>>>>> 6a8b1904b06583b8fd485e9bd95166e702c7b0ef
+
+.p1 {
+	text-align:justify;
+	padding: 12px;
+	font-family: Consolas, Times, serif;
+	background-color: rgba(255, 255, 255, 0.85); /* White with 50% opacity */
+	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
+
+
 }
