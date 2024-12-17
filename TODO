@@ -1,9 +1,7 @@
-menu
-
-comprimir arquivos
-
-implementar homepage cards
-
 implementar secções artwork, workshops e full CV
-
+artwork: cards gallery
+workshops: slideshow, each slide a different workshop (with iframes)
+implementar homepage cards
+comprimir arquivos
+menu
 readme
