@@ -40,7 +40,7 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
   height: 100%;
   object-fit: cover;
   z-index: -100;
-	opacity: .8; /* Adjust background video brightness */
+	opacity: .6; /* Adjust background video brightness */
 }
 
 /* Header */
@@ -151,7 +151,7 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 .card {
   /* Add shadows to create the "card" effect */
 
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(140,140,140,0.9);
 	border-style: inset;
 	border-color:#AEAEAE;
   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
