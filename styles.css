@@ -19,6 +19,11 @@ body{
 	src: url('./fonts/consolas/CONSOLA.TTF');
 }
 
+@font-face {
+	font-family: "Pixel Sans";
+	src: url('./fonts/Basiic-Style-Sans.ttf');
+}
+
 body {
   cursor: url("./images/cursor/0.png"), default;
   font-family: TimesNewArial, sans-serif;
