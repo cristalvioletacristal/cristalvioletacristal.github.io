@@ -58,6 +58,18 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 }
 
 /* Gallery */
+
+.flex-element{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+	width: 100%;
+  /* margin: 20px auto; */
+  /* padding: 20px 10px; */
+  /* gap: 16px; /* Add consistent spacing between images */ */
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -108,6 +120,13 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
 }
 
+.p1AW {
+	text-align:justify;
+	padding: 12px;
+	font-family: Consolas, Times, serif;
+	/* background-color: rgba(255, 255, 255, 0.85); /* White with 50% opacity */ */
+	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
+}
 .back-button {
 
 }
@@ -116,4 +135,30 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 	margin:50px;
 	margin-top:20px;
 	margin-bottom:20px;
+}
+
+#contato {
+	margin:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+
+	background-color: rgba(0,0,0,0.2);
+	border-style: inset;
+	border-color:#AEAEAE;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
