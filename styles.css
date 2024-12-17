@@ -102,3 +102,9 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 .back-button {
 
 }
+
+#bio {
+	margin:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
