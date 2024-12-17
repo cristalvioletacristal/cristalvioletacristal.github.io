@@ -22,6 +22,9 @@ body {
   margin: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+a:hover{
+cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
+}
 
 /* Video Background */
 #videoDemaisParaContar {
@@ -94,6 +97,8 @@ body {
 	font-family: Consolas, Times, serif;
 	background-color: rgba(255, 255, 255, 0.85); /* White with 50% opacity */
 	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
+}
 
+.back-button {
 
 }
