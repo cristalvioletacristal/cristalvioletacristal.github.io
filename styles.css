@@ -16,7 +16,7 @@ body{
 
 @font-face {
 	font-family: "Consolas";
-	src: url('./fonts/consolas/Consolas.ttf');
+	src: url('./fonts/consolas/CONSOLA.TTF');
 }
 
 body {
@@ -164,6 +164,19 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 }
 
 /* Add some padding inside the card container */
+.container-home {
+  padding: 2px 16px;
+}
 .container {
   padding: 2px 16px;
+}
+.container h4 {
+	padding: 0px;
+	margin-bottom: 4px;
+	margin-top:10px
+}
+.container p {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 13px;
 }
