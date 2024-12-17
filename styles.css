@@ -14,6 +14,11 @@ body{
   src: url('./fonts/times-new-arial/TimesNewArial.ttf');
 }
 
+@font-face {
+	font-family: "Consolas";
+	src: url('./fonts/consolas/Consolas.ttf');
+}
+
 body {
   cursor: url("./images/cursor/0.png"), default;
   font-family: TimesNewArial, sans-serif;
