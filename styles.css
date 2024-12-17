@@ -165,7 +165,9 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 
 /* Add some padding inside the card container */
 .container-home {
+	font-size:18px;
   padding: 2px 16px;
+	text-shadow: 1px 0 #AEAEAE;
 }
 .container {
   padding: 2px 16px;
