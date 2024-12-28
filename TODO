@@ -1,4 +1,18 @@
+seção lateral responsiva baseada em kiophen (https://mileshouse.neocities.org/)
 implementar secção workshops
 workshops: slideshow, each slide a different workshop (with iframes)
 comprimir arquivos
 menu
+music player:
+    design
+    base
+    buttons
+    visualizer
+    legenda
+      tipografia
+      visor das legendas
+      texto em si
+playlist
+labirinto
+plano de fundos diferentes para cada página
+  tiling background images
