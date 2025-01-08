@@ -121,6 +121,15 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
 }
 
+
+.p1LP {
+display:flex;justify-content:center;align-items:center;
+	padding: 12px;
+	font-family: Consolas, Times, serif;
+	background-color: rgba(255, 255, 255, 0.85); /* White with 50% opacity */
+	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
+}
+
 .p1CV {
 	text-align:justify;
 	padding: 12px;
@@ -229,4 +238,13 @@ display: flex;
 	gap: 16px; /* Add consistent spacing between images */
 /* flex: 1 0 100%; */
 
+}
+
+#ir-ao-website {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+	width:117px;
 }
