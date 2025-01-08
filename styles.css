@@ -85,7 +85,7 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 1400px;
+	max-width: 800px;
   margin: 20px auto;
   padding: 20px 10px;
   gap: 16px; /* Add consistent spacing between images */
@@ -202,4 +202,31 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 	padding: 0px;
 	margin-top: 0px;
 	margin-bottom: 13px;
+}
+
+.info-section {
+/* vertical-align: top; */
+/* flex: 0 0 50%; */
+padding-top: 0px;
+width: 100%;
+max-width: 400px;
+/* height: 250px; */
+/* object-fit: cover; */
+/* margin: 4%; */
+/* transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */ */
+
+}
+
+.mainDiv{
+
+display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 1400px;
+	margin: 20px auto;
+	padding: 20px 10px;
+	gap: 16px; /* Add consistent spacing between images */
+/* flex: 1 0 100%; */
+
 }
