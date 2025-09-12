@@ -80,6 +80,12 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
   /* gap: 16px; /* Add consistent spacing between images */ */
 }
 
+#canvasForHTML {
+z-index:-1;
+position:sticky;
+top:0;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -121,6 +127,18 @@ cursor: url("./images/cursor/ro-link-select-frame-0.png"), auto !important;
 	/* src: url('./fonts/times-new-arial/TimesNewArial.ttf'); */
 }
 
+#corpoOI{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+}
+
+
+#p1OI {
+grid-column:2;
+color:red;
+background-color: rgba(80, 0, 0, 0.3); /* White with 50% opacity */
+
+}
 
 .p1LP {
 display:flex;justify-content:center;align-items:center;
